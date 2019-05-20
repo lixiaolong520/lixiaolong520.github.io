@@ -7,7 +7,7 @@
 ## Jsrender
 [jsrender API](https://www.jsviews.com/)
 Here's a first example of the power and simplicity of JsRender templates: Some data:
-```javascipt
+```json
 [
   {
     "name": "Robert",
@@ -22,7 +22,7 @@ Here's a first example of the power and simplicity of JsRender templates: Some d
 ]
 ```
 A template (with a conditional section using an {{if...}} tag):
-```
+```html
 <div>
    <em>Name:</em> {{:name}}
    {{if showNickname && nickname}}
