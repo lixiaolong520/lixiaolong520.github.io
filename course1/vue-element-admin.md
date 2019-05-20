@@ -3,7 +3,7 @@
 # 准备
 + package.json
 scripts节点：相当于在命令和里直接输入script中的命令
-```javascript
+```json
 {
    "scripts": {
     "dev": "vue-cli-service serve",
@@ -27,9 +27,10 @@ dependencies和devDependencies的区别
 禁用方法：
 vue.config.js文件中增加如下代码
 ```javascript
- chainWebpack(config) {
-     config.module.rules.delete('eslint')
- }
+   chainWebpack(config){
+        config.module.rules.delete('eslint')
+   } 
+
 ```
 单个禁用可以修改.eslintrc.js
 
