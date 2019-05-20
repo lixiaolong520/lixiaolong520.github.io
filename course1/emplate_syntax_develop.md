@@ -1,13 +1,13 @@
-#模板语法的发展
+# 模板语法的发展
 
 
-##Jsp + JSP 中EL表达式用法详解  
-##Jquery拼接HTML代码片段
+## Jsp + JSP 中EL表达式用法详解  
+## Jquery拼接HTML代码片段
 
-##Jsrender
+## Jsrender
 [jsrender API](https://www.jsviews.com/)
 Here's a first example of the power and simplicity of JsRender templates: Some data:
-```
+```javascipt
 [
   {
     "name": "Robert",
@@ -33,7 +33,7 @@ A template (with a conditional section using an {{if...}} tag):
 
 
 
-##underscore小型模板语法
+## underscore小型模板语法
 [_.template API](https://underscorejs.org/#template)
 
 ```
@@ -47,9 +47,9 @@ A template (with a conditional section using an {{if...}} tag):
     => "<b>&lt;script&gt;</b>"
 ```
 
-##Vue,React.Ng 语法
-##模板语法点= 循环,ifelse,嵌套，filter
+## Vue,React.Ng 语法
+## 模板语法点= 循环,ifelse,嵌套，filter
 
-##question:
+## question:
 + 怎么做模板中的临时变量
   
