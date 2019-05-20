@@ -36,12 +36,13 @@ A template (with a conditional section using an {{if...}} tag):
 ## underscore小型模板语法
 [_.template API](https://underscorejs.org/#template)
 
-```
+```javascript
     var compiled = _.template("hello: <%= name %>");
     compiled({name: 'moe'});
-    => "hello: moe"
+    //=> "hello: moe"
 ```
-```    
+    
+```javascript   
     var template = _.template("<b><%- value %></b>");
     template({value: '<script>'});
     => "<b>&lt;script&gt;</b>"
