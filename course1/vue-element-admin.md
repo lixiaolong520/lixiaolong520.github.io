@@ -150,19 +150,19 @@ service.interceptors.response.use(
     }
   } 
 ```
-##路由和权限控制
-###基础参考文件
+## 路由和权限控制
+### 基础参考文件
 src/permission.js
 src/router
 src/store/modules/user.js
 其中permission.js中
 > NProgress为导航条插件
 > router.beforeEach 和 router.afterEach 是页面进入退出的总控制中心 
-###左侧导航的权限控制
+### 左侧导航的权限控制
 组件名：src/layout/components/Sidebar/index.vue
 mapgetters中permission_routes为权限过滤后的菜单列表
 
-##使用背景图片
+## 使用背景图片
 1. 放入src/assets文件夹中
 2. 参考代码,@符号前边需要增加~
 ```css
@@ -177,10 +177,10 @@ mapgetters中permission_routes为权限过滤后的菜单列表
     border-radius: 5px
   }
 ```
-##基础颜色样式修改
+## 基础颜色样式修改
 src/styles文件中variables.scss文件定义了各种颜色变量
 
-##mixin的使用
+## mixin的使用
 mixin相当于多继承，在高级语言java .net中 一个类只能继承一个父类，可以实现多个接口
 而通过mixin设计模式，可以让Vue实例多继承多个父类
 参考vue-element-admin中的chart模块resize mixin
