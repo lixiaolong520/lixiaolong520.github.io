@@ -5,5 +5,6 @@ relative_links:
   collections: true
 include:
   - course1/elementui.md
+  - course1/emplate_syntax_develop.md
   - README.md
   
