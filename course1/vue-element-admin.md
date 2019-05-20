@@ -1,7 +1,7 @@
 [官方指南](https://panjiachen.github.io/vue-element-admin-site/zh/guide/)
 
 # 准备
-+ package.json
+## package.json
 scripts节点：相当于在命令和里直接输入script中的命令
 ```json
 {
@@ -23,7 +23,7 @@ mode 后边的对应的是根目录.env.development,.env.pre等文件名
 dependencies和devDependencies的区别
 
 
-+ eslint
+## eslint
 禁用方法：
 vue.config.js文件中增加如下代码
 ```javascript
@@ -34,16 +34,16 @@ vue.config.js文件中增加如下代码
 ```
 单个禁用可以修改.eslintrc.js
 
-+ plop
+## plop
 [说明](https://medium.com/@nicoespeon/plop-a-micro-generator-to-ease-your-daily-life-7767f0a34db)
 自动生成文件名View Component 命令行创建工具
 
 
-+ mock.js
-+ webpack config
-+ dev-tools
+## mock.js
+## webpack config
+## dev-tools
 [离线安装地址](https://github.com/vuejs/vue-devtools)
-+ store,directive,filter目录
+## store,directive,filter目录
 ---
 # question:
 1. this.$nextTick什么时候用？
