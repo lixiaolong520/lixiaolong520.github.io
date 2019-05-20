@@ -42,6 +42,8 @@ vue.config.js文件中增加如下代码
 + webpack config
 + dev-tools
 [离线安装地址](https://github.com/vuejs/vue-devtools)
++ store,directive,filter目录
+---
 # question:
 1. this.$nextTick什么时候用？
 2. Vue的Computed有什么用，解决了什么问题？
@@ -59,6 +61,11 @@ export const binds = [
 ];
 export const bindsMap = makeMap(binds);
 ```
+<img src="pics/编辑页面.png" alt="drawing" width="300" height="200"/>
+1. 当修改时候怎么绑定时候重新赋值Form对象
+2. 新增时候 怎么做Form表单验证 动态添加出来的组件
+
+
 
  
 
